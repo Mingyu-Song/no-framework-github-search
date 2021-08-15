@@ -1,0 +1,29 @@
+{
+  "name": "momsitter",
+  "version": "1.0.0",
+  "description": "momsitter github search",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development PORT=3000 webpack serve --hot",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "Mingyu-Song",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@octokit/core": "^3.5.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "path": "^0.12.7",
+    "redux": "^4.1.1",
+    "webpack": "^5.50.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
